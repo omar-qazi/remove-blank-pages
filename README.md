@@ -75,5 +75,3 @@ project-root/
 ## Limitations
 -   Only detects text content (pages with images may be considered blank)
 -   PDFs with complex formatting might require threshold adjustments
--   Requires sufficient memory for large PDF files
-    

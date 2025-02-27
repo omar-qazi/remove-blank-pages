@@ -77,6 +77,3 @@ project-root/
 -   PDFs with complex formatting might require threshold adjustments
 -   Requires sufficient memory for large PDF files
     
-
-## License
-MIT License

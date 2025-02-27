@@ -1,6 +1,6 @@
 # Remove Blank Pages from PDFs
 
-A Node.js module to remove blank pages from PDF documents.
+A node.js module to remove blank pages from PDF documents.
 
 
 ## Features
@@ -26,8 +26,8 @@ const removeBlankPages = require('./remove-blank-pages');
 async function processPDF() {
   try {
     const result = await removeBlankPages('./input.pdf', './output.pdf', {
-      textThreshold: 5, //  Pages  with  <5  characters  considered  blank
-      debug: true //  Show  processing  details
+      textThreshold: 5,     // Pages with < 5 characters are considered blank
+      debug: true           // Show processing details
     });
 
     console.log(`Removed ${result.removedPages.length} blank pages`);

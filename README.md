@@ -63,12 +63,14 @@ processPDF();
 
 
 ## File Structure
+```
 project-root/
 ├── pdfs/
 │   ├── input/      # Source PDFs
 │   └── output/     # Processed PDFs
 ├── remove-blank-pages.js
 └── index.js
+```
 
 ## Limitations
 -   Only detects text content (pages with images may be considered blank)
